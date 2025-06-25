@@ -1,0 +1,101 @@
+Ticket ID,Issue Summary,Status,Assigned Agent,Stage,start_time
+TKT-0AF0A6,Error in transaction F110 due to GUI crash on execution,Closed,8D Agent,Resolved,2025-06-22 03:26:14
+TKT-48EA5F,Error in transaction SE38 due to authorization failure,In Progress,Analyzer Agent,Classifying issue,2025-06-21 18:12:14
+TKT-B51924,Error in transaction SM36 due to plant not assigned to company code,Open,8D Agent,Parsing logs,2025-06-23 06:28:14
+TKT-7C13C5,Error in transaction ME51N due to plant not assigned to company code,In Progress,8D Agent,Queued,2025-06-23 11:49:14
+TKT-144207,Error in transaction ME51N due to GUI crash on execution,Closed,Triaging Agent,Resolved,2025-06-24 19:29:14
+TKT-1EE674,Error in transaction F110 due to data type mismatch in BAPI,Open,8D Agent,Parsing logs,2025-06-24 18:50:14
+TKT-8FCD21,Error in transaction F110 due to RFC destination not maintained,Open,Analyzer Agent,Parsing logs,2025-06-24 01:47:14
+TKT-048E55,Error in transaction SE38 due to GUI crash on execution,Open,8D Agent,Running 5 Whys,2025-06-23 14:00:14
+TKT-4D6CB1,Error in transaction VL31N due to buffer overflow in memory,Closed,Triaging Agent,Creating 8D report,2025-06-23 03:04:14
+TKT-630E21,Error in transaction FB60 due to null reference object,In Progress,Triaging Agent,Parsing logs,2025-06-21 18:18:14
+TKT-0410CF,Error in transaction VL02N due to invalid currency conversion,Open,Triaging Agent,Running 5 Whys,2025-06-24 15:19:14
+TKT-4C6378,Error in transaction MIRO due to ALV layout not saving,Open,Analyzer Agent,Parsing logs,2025-06-23 11:48:14
+TKT-71CD2F,Error in transaction VF02 due to invalid document number,Closed,Analyzer Agent,Resolved,2025-06-22 22:13:14
+TKT-4C6E7F,Error in transaction ME21N due to invalid currency conversion,Open,Analyzer Agent,Parsing logs,2025-06-23 13:31:14
+TKT-D28DB9,Error in transaction CO01 due to authorization failure,Open,Triaging Agent,Classifying issue,2025-06-21 14:39:14
+TKT-05F92A,Error in transaction MM01 due to data type mismatch in BAPI,Open,Triaging Agent,Creating 8D report,2025-06-24 11:00:14
+TKT-F4BCB8,Error in transaction ME21N due to system timeout during processing,Closed,8D Agent,Classifying issue,2025-06-24 11:09:14
+TKT-78E59D,Error in transaction VA01 due to RFC destination not maintained,In Progress,Analyzer Agent,Resolved,2025-06-22 23:25:14
+TKT-391FAF,Error in transaction CO01 due to invalid document number,Open,Analyzer Agent,Creating 8D report,2025-06-21 18:04:14
+TKT-34E0A1,Error in transaction VA01 due to GUI crash on execution,Open,8D Agent,Classifying issue,2025-06-23 18:36:14
+TKT-855694,Error in transaction FB60 due to invalid document number,In Progress,Analyzer Agent,Resolved,2025-06-22 10:41:14
+TKT-71721E,Error in transaction CO01 due to missing configuration,Closed,Triaging Agent,Classifying issue,2025-06-23 17:46:14
+TKT-579363,Error in transaction SE38 due to system timeout during processing,Closed,Analyzer Agent,Running 5 Whys,2025-06-23 08:11:14
+TKT-61C91D,Error in transaction MB1C due to partner function missing,In Progress,8D Agent,Queued,2025-06-24 10:20:14
+TKT-6EB06E,Error in transaction VL10B due to partner function missing,Closed,Analyzer Agent,Running 5 Whys,2025-06-23 22:50:14
+TKT-9D4CF7,Error in transaction WE02 due to posting period not open,Closed,Triaging Agent,Creating 8D report,2025-06-22 00:23:14
+TKT-C2FCE4,Error in transaction FB60 due to RFC destination not maintained,Open,Triaging Agent,Parsing logs,2025-06-22 06:08:14
+TKT-92BEE9,Error in transaction VF02 due to buffer overflow in memory,Open,8D Agent,Parsing logs,2025-06-24 10:03:14
+TKT-1AADC0,Error in transaction MM01 due to ALV layout not saving,Closed,Triaging Agent,Running 5 Whys,2025-06-22 20:28:14
+TKT-DD6B4F,Error in transaction SM36 due to report variant not loading,In Progress,8D Agent,Parsing logs,2025-06-24 06:44:14
+TKT-CA5542,Error in transaction VL10B due to invalid currency conversion,In Progress,Analyzer Agent,Running 5 Whys,2025-06-24 23:40:14
+TKT-9D89AA,Error in transaction VL31N due to invalid currency conversion,Open,8D Agent,Creating 8D report,2025-06-23 00:40:14
+TKT-C154D5,Error in transaction F110 due to partner function missing,In Progress,Triaging Agent,Creating 8D report,2025-06-24 21:06:14
+TKT-003191,Error in transaction SE38 due to posting period not open,Closed,8D Agent,Running 5 Whys,2025-06-22 14:21:14
+TKT-638E8E,Error in transaction VL02N due to null reference object,Closed,8D Agent,Parsing logs,2025-06-24 15:20:14
+TKT-F4ACE8,Error in transaction MM01 due to RFC destination not maintained,Open,Triaging Agent,Classifying issue,2025-06-22 20:42:14
+TKT-598F63,Error in transaction WE02 due to invalid document number,In Progress,Triaging Agent,Running 5 Whys,2025-06-23 09:29:14
+TKT-433EB3,Error in transaction ME51N due to data type mismatch in BAPI,In Progress,8D Agent,Creating 8D report,2025-06-23 17:22:14
+TKT-76D0F8,Error in transaction WE02 due to plant not assigned to company code,In Progress,8D Agent,Parsing logs,2025-06-24 18:24:14
+TKT-884873,Error in transaction ME51N due to ALV layout not saving,Closed,Analyzer Agent,Parsing logs,2025-06-21 23:06:14
+TKT-4083E2,Error in transaction VL02N due to GUI crash on execution,In Progress,Triaging Agent,Queued,2025-06-21 17:18:14
+TKT-ECE233,Error in transaction MB1C due to GUI crash on execution,Open,Analyzer Agent,Running 5 Whys,2025-06-23 02:39:14
+TKT-C5E884,Error in transaction VF01 due to invalid currency conversion,Open,Analyzer Agent,Parsing logs,2025-06-24 18:16:14
+TKT-63BC1C,Error in transaction ME51N due to partner function missing,Open,Analyzer Agent,Queued,2025-06-23 03:52:14
+TKT-7842A6,Error in transaction SM36 due to GUI crash on execution,In Progress,Analyzer Agent,Running 5 Whys,2025-06-24 08:59:14
+TKT-04EEF4,Error in transaction ME51N due to buffer overflow in memory,Closed,8D Agent,Classifying issue,2025-06-24 18:17:14
+TKT-5F16BE,Error in transaction VL10B due to buffer overflow in memory,In Progress,Analyzer Agent,Resolved,2025-06-24 04:20:14
+TKT-57D4B3,Error in transaction VL10B due to missing configuration,Open,Triaging Agent,Running 5 Whys,2025-06-22 19:05:14
+TKT-B1BEE8,Error in transaction FB60 due to ALV layout not saving,Closed,8D Agent,Queued,2025-06-24 08:42:14
+TKT-0C62D5,Error in transaction MIRO due to missing configuration,Closed,Analyzer Agent,Resolved,2025-06-23 10:50:14
+TKT-FA60DD,Error in transaction ME21N due to buffer overflow in memory,Closed,Analyzer Agent,Creating 8D report,2025-06-21 19:38:14
+TKT-6A9FBF,Error in transaction ME51N due to authorization failure,In Progress,Triaging Agent,Running 5 Whys,2025-06-22 11:25:14
+TKT-841B2D,Error in transaction SE38 due to invalid document number,In Progress,Analyzer Agent,Resolved,2025-06-22 22:31:14
+TKT-0E838C,Error in transaction F110 due to buffer overflow in memory,Closed,Analyzer Agent,Running 5 Whys,2025-06-23 23:48:14
+TKT-159701,Error in transaction MIRO due to invalid currency conversion,In Progress,Analyzer Agent,Classifying issue,2025-06-22 09:33:14
+TKT-E8C5A9,Error in transaction ST22 due to plant not assigned to company code,Open,Triaging Agent,Parsing logs,2025-06-23 23:29:14
+TKT-7CB113,Error in transaction MM01 due to unexpected dump in runtime,Closed,Analyzer Agent,Classifying issue,2025-06-22 17:01:14
+TKT-13A727,Error in transaction ST22 due to invalid document number,Closed,Analyzer Agent,Queued,2025-06-22 19:19:14
+TKT-17A166,Error in transaction MB1C due to report variant not loading,Closed,8D Agent,Creating 8D report,2025-06-23 21:24:14
+TKT-4741E5,Error in transaction VL02N due to authorization failure,Open,Analyzer Agent,Parsing logs,2025-06-24 12:28:14
+TKT-3614DF,Error in transaction VL31N due to invalid document number,In Progress,8D Agent,Resolved,2025-06-23 08:27:14
+TKT-488D6E,Error in transaction ME21N due to unexpected dump in runtime,In Progress,Analyzer Agent,Resolved,2025-06-24 18:19:14
+TKT-270B22,Error in transaction SM36 due to authorization failure,Closed,8D Agent,Queued,2025-06-24 22:57:14
+TKT-242A5A,Error in transaction VL02N due to unexpected dump in runtime,Closed,Analyzer Agent,Resolved,2025-06-22 11:25:14
+TKT-AAEBEF,Error in transaction SE38 due to partner function missing,Open,Triaging Agent,Creating 8D report,2025-06-23 11:33:14
+TKT-6300BE,Error in transaction VF02 due to data type mismatch in BAPI,Closed,Analyzer Agent,Running 5 Whys,2025-06-22 09:09:14
+TKT-9274A7,Error in transaction MIRO due to GUI crash on execution,In Progress,8D Agent,Parsing logs,2025-06-24 13:50:14
+TKT-98C726,Error in transaction SM36 due to invalid currency conversion,Closed,8D Agent,Running 5 Whys,2025-06-22 04:48:14
+TKT-807E1C,Error in transaction ST22 due to system timeout during processing,In Progress,Analyzer Agent,Resolved,2025-06-23 04:35:14
+TKT-62D330,Error in transaction MIRO due to unexpected dump in runtime,Open,8D Agent,Queued,2025-06-22 01:42:14
+TKT-676A3F,Error in transaction MIRO due to report variant not loading,In Progress,8D Agent,Parsing logs,2025-06-24 20:51:14
+TKT-1DFB26,Error in transaction VL31N due to partner function missing,Closed,Triaging Agent,Creating 8D report,2025-06-24 22:39:14
+TKT-F7496E,Error in transaction MM01 due to GUI crash on execution,Open,8D Agent,Running 5 Whys,2025-06-21 19:08:14
+TKT-1CBB87,Error in transaction ME21N due to plant not assigned to company code,Open,8D Agent,Running 5 Whys,2025-06-22 03:07:14
+TKT-993CA1,Error in transaction VL31N due to ALV layout not saving,In Progress,Analyzer Agent,Parsing logs,2025-06-23 08:32:14
+TKT-9E8136,Error in transaction CO01 due to report variant not loading,Closed,Analyzer Agent,Running 5 Whys,2025-06-23 06:26:14
+TKT-5D7E6F,Error in transaction SM36 due to buffer overflow in memory,In Progress,Triaging Agent,Resolved,2025-06-22 00:49:14
+TKT-98CB6E,Error in transaction FB60 due to invalid currency conversion,Closed,8D Agent,Classifying issue,2025-06-22 08:56:14
+TKT-A2E761,Error in transaction VL10B due to invalid document number,Open,Triaging Agent,Creating 8D report,2025-06-21 15:55:14
+TKT-E27574,Error in transaction F110 due to posting period not open,Open,Triaging Agent,Parsing logs,2025-06-23 05:17:14
+TKT-EFE073,Error in transaction VL10B due to GUI crash on execution,In Progress,Analyzer Agent,Creating 8D report,2025-06-23 15:09:14
+TKT-073239,Error in transaction ST22 due to missing configuration,In Progress,Triaging Agent,Queued,2025-06-24 03:50:14
+TKT-C7FDF4,Error in transaction VF01 due to ALV layout not saving,In Progress,Triaging Agent,Classifying issue,2025-06-23 10:51:14
+TKT-EB50BD,Error in transaction ME51N due to RFC destination not maintained,Closed,8D Agent,Creating 8D report,2025-06-22 21:33:14
+TKT-6AC1B3,Error in transaction VA01 due to report variant not loading,In Progress,Analyzer Agent,Running 5 Whys,2025-06-23 07:59:14
+TKT-5AE4EF,Error in transaction VL02N due to posting period not open,In Progress,Triaging Agent,Resolved,2025-06-22 13:20:14
+TKT-2771EF,Error in transaction WE02 due to report variant not loading,In Progress,8D Agent,Resolved,2025-06-22 18:10:14
+TKT-B6E535,Error in transaction SE38 due to null reference object,In Progress,Triaging Agent,Parsing logs,2025-06-24 17:44:14
+TKT-3693E6,Error in transaction CO01 due to posting period not open,In Progress,Analyzer Agent,Resolved,2025-06-23 13:04:14
+TKT-6C040E,Error in transaction VF01 due to data type mismatch in BAPI,Open,8D Agent,Running 5 Whys,2025-06-21 22:00:14
+TKT-AE8439,Error in transaction ST22 due to GUI crash on execution,Open,Analyzer Agent,Queued,2025-06-24 07:37:14
+TKT-298AD7,Error in transaction MB1C due to RFC destination not maintained,Open,8D Agent,Queued,2025-06-24 13:56:14
+TKT-D43274,Error in transaction VF01 due to system timeout during processing,In Progress,Analyzer Agent,Classifying issue,2025-06-21 16:40:14
+TKT-07B4A3,Error in transaction VL10B due to data type mismatch in BAPI,Closed,8D Agent,Creating 8D report,2025-06-22 10:12:14
+TKT-E9025E,Error in transaction WE02 due to unexpected dump in runtime,Open,Analyzer Agent,Classifying issue,2025-06-24 10:49:14
+TKT-E73642,Error in transaction VL31N due to GUI crash on execution,Closed,Analyzer Agent,Queued,2025-06-22 07:39:14
+TKT-214D36,Error in transaction SM36 due to ALV layout not saving,Open,Triaging Agent,Resolved,2025-06-22 05:01:14
+TKT-8504EF,Error in transaction ME21N due to ALV layout not saving,Open,Analyzer Agent,Resolved,2025-06-24 16:12:14
+TKT-EE9170,Error in transaction VF02 due to system timeout during processing,Closed,Triaging Agent,Queued,2025-06-21 17:01:14
+TKT-AEA090,Error in transaction WE02 due to partner function missing,Open,Triaging Agent,Classifying issue,2025-06-22 06:27:14

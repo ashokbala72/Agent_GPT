@@ -1,0 +1,101 @@
+Ticket ID,SAP Module,Transaction Code,Recent Log/Error Snippet,Business Process Affected,Previous Fix Attempt,Priority,Region
+TKT-0AF0A6,HR,PA30,Short dump in custom report ZFI123,Vendor invoice posting,Restarted workflow,Medium,US
+TKT-48EA5F,CO,CO01,Short dump in custom report ZFI123,Sales order booking,Validated config entries,Medium,APAC
+TKT-B51924,PP,FB60,Invalid table lock entry,Cost center reporting,Validated config entries,Medium,EU
+TKT-7C13C5,SD,VA01,Missing configuration for document type,Purchase order creation,Reassigned authorizations,High,US
+TKT-144207,FI,KSB1,NullReferenceException in background job,Cost center reporting,Validated config entries,Critical,APAC
+TKT-1EE674,SD,PA30,Missing configuration for document type,Production order release,Reassigned authorizations,Critical,US
+TKT-8FCD21,CO,CO01,Missing configuration for document type,Purchase order creation,Reassigned authorizations,Low,US
+TKT-048E55,FI,PA30,NullReferenceException in background job,Production order release,Restarted workflow,Medium,APAC
+TKT-4D6CB1,SD,CO01,Invalid table lock entry,Cost center reporting,Validated config entries,Critical,MEA
+TKT-630E21,HR,KSB1,Missing configuration for document type,Employee master update,No fix attempted yet,High,EU
+TKT-0410CF,FI,VA01,Missing configuration for document type,Vendor invoice posting,Restarted workflow,Critical,APAC
+TKT-4C6378,SD,PA30,Missing configuration for document type,Production order release,Restarted workflow,Critical,EU
+TKT-71CD2F,PP,CO01,Short dump in custom report ZFI123,Production order release,No fix attempted yet,Low,APAC
+TKT-4C6E7F,SD,VA01,Authorization check failed,Employee master update,No fix attempted yet,Critical,EU
+TKT-D28DB9,MM,VA01,NullReferenceException in background job,Sales order booking,Validated config entries,High,EU
+TKT-05F92A,HR,KSB1,NullReferenceException in background job,Sales order booking,Re-ran job in foreground,High,MEA
+TKT-F4BCB8,MM,CO01,Short dump in custom report ZFI123,Employee master update,No fix attempted yet,Medium,EU
+TKT-78E59D,CO,PA30,Short dump in custom report ZFI123,Cost center reporting,Reassigned authorizations,Critical,US
+TKT-391FAF,PP,FB60,Missing configuration for document type,Vendor invoice posting,Re-ran job in foreground,Low,US
+TKT-34E0A1,PP,VA01,Short dump in custom report ZFI123,Purchase order creation,Validated config entries,Medium,EU
+TKT-855694,SD,CO01,NullReferenceException in background job,Sales order booking,Checked with Basis team,Medium,EU
+TKT-71721E,SD,KSB1,Short dump in custom report ZFI123,Production order release,Re-ran job in foreground,High,EU
+TKT-579363,HR,PA30,RFC destination not maintained,Sales order booking,Re-ran job in foreground,Low,EU
+TKT-61C91D,HR,CO01,Missing configuration for document type,Production order release,Re-ran job in foreground,Critical,APAC
+TKT-6EB06E,FI,VA01,Invalid table lock entry,Sales order booking,Reassigned authorizations,Low,APAC
+TKT-9D4CF7,PP,KSB1,Missing configuration for document type,Purchase order creation,Re-ran job in foreground,Critical,MEA
+TKT-C2FCE4,CO,CO01,RFC destination not maintained,Sales order booking,Checked with Basis team,Medium,APAC
+TKT-92BEE9,PP,PA30,Invalid table lock entry,Cost center reporting,No fix attempted yet,Medium,APAC
+TKT-1AADC0,SD,PA30,Authorization check failed,Employee master update,Restarted workflow,Critical,US
+TKT-DD6B4F,HR,ME21N,RFC destination not maintained,Sales order booking,No fix attempted yet,High,APAC
+TKT-CA5542,SD,PA30,NullReferenceException in background job,Cost center reporting,Validated config entries,Medium,EU
+TKT-9D89AA,HR,VA01,RFC destination not maintained,Employee master update,Restarted workflow,Low,US
+TKT-C154D5,MM,ME21N,RFC destination not maintained,Purchase order creation,Reassigned authorizations,Critical,EU
+TKT-003191,HR,CO01,Invalid table lock entry,Production order release,Reassigned authorizations,Medium,US
+TKT-638E8E,HR,CO01,Missing configuration for document type,Production order release,Reassigned authorizations,Medium,APAC
+TKT-F4ACE8,HR,CO01,RFC destination not maintained,Production order release,Restarted workflow,Medium,APAC
+TKT-598F63,SD,VA01,Missing configuration for document type,Production order release,Restarted workflow,High,EU
+TKT-433EB3,CO,FB60,NullReferenceException in background job,Purchase order creation,No fix attempted yet,Medium,MEA
+TKT-76D0F8,CO,KSB1,RFC destination not maintained,Production order release,Validated config entries,Low,APAC
+TKT-884873,SD,VA01,RFC destination not maintained,Purchase order creation,Validated config entries,High,EU
+TKT-4083E2,FI,FB60,Invalid table lock entry,Purchase order creation,Validated config entries,Critical,APAC
+TKT-ECE233,FI,KSB1,NullReferenceException in background job,Cost center reporting,Re-ran job in foreground,High,EU
+TKT-C5E884,MM,CO01,Missing configuration for document type,Production order release,No fix attempted yet,Low,MEA
+TKT-63BC1C,PP,CO01,Invalid table lock entry,Employee master update,Validated config entries,Medium,US
+TKT-7842A6,FI,KSB1,Missing configuration for document type,Vendor invoice posting,Re-ran job in foreground,Low,US
+TKT-04EEF4,SD,FB60,Missing configuration for document type,Production order release,Re-ran job in foreground,Low,EU
+TKT-5F16BE,MM,FB60,Invalid table lock entry,Production order release,Reassigned authorizations,Low,US
+TKT-57D4B3,FI,VA01,NullReferenceException in background job,Purchase order creation,Restarted workflow,Critical,EU
+TKT-B1BEE8,HR,ME21N,Short dump in custom report ZFI123,Purchase order creation,Restarted workflow,Critical,EU
+TKT-0C62D5,PP,KSB1,Missing configuration for document type,Vendor invoice posting,Validated config entries,Medium,EU
+TKT-FA60DD,CO,KSB1,Missing configuration for document type,Vendor invoice posting,Re-ran job in foreground,High,APAC
+TKT-6A9FBF,CO,CO01,Invalid table lock entry,Purchase order creation,Reassigned authorizations,High,APAC
+TKT-841B2D,FI,VA01,Short dump in custom report ZFI123,Cost center reporting,Validated config entries,Medium,EU
+TKT-0E838C,MM,FB60,Short dump in custom report ZFI123,Vendor invoice posting,Re-ran job in foreground,High,MEA
+TKT-159701,CO,VA01,Invalid table lock entry,Sales order booking,Checked with Basis team,Medium,MEA
+TKT-E8C5A9,HR,VA01,Short dump in custom report ZFI123,Purchase order creation,Re-ran job in foreground,Medium,MEA
+TKT-7CB113,MM,ME21N,Short dump in custom report ZFI123,Cost center reporting,Reassigned authorizations,Low,EU
+TKT-13A727,CO,KSB1,Missing configuration for document type,Employee master update,Restarted workflow,High,EU
+TKT-17A166,HR,FB60,NullReferenceException in background job,Purchase order creation,Reassigned authorizations,Medium,MEA
+TKT-4741E5,MM,PA30,Short dump in custom report ZFI123,Cost center reporting,Validated config entries,Medium,APAC
+TKT-3614DF,HR,FB60,Invalid table lock entry,Vendor invoice posting,No fix attempted yet,High,MEA
+TKT-488D6E,PP,KSB1,Authorization check failed,Employee master update,Validated config entries,Critical,EU
+TKT-270B22,FI,ME21N,Authorization check failed,Cost center reporting,Validated config entries,Critical,APAC
+TKT-242A5A,MM,ME21N,Authorization check failed,Sales order booking,No fix attempted yet,Low,APAC
+TKT-AAEBEF,PP,PA30,Invalid table lock entry,Production order release,Checked with Basis team,High,MEA
+TKT-6300BE,CO,PA30,NullReferenceException in background job,Sales order booking,Restarted workflow,Medium,APAC
+TKT-9274A7,SD,ME21N,Missing configuration for document type,Cost center reporting,Validated config entries,Medium,US
+TKT-98C726,FI,KSB1,Short dump in custom report ZFI123,Purchase order creation,Validated config entries,High,EU
+TKT-807E1C,SD,PA30,Short dump in custom report ZFI123,Purchase order creation,Checked with Basis team,Low,US
+TKT-62D330,CO,ME21N,RFC destination not maintained,Vendor invoice posting,Reassigned authorizations,High,US
+TKT-676A3F,SD,FB60,Short dump in custom report ZFI123,Production order release,Re-ran job in foreground,Low,MEA
+TKT-1DFB26,SD,VA01,RFC destination not maintained,Sales order booking,No fix attempted yet,High,APAC
+TKT-F7496E,FI,KSB1,Invalid table lock entry,Cost center reporting,Checked with Basis team,High,US
+TKT-1CBB87,FI,VA01,RFC destination not maintained,Sales order booking,Re-ran job in foreground,High,US
+TKT-993CA1,FI,KSB1,Invalid table lock entry,Cost center reporting,Validated config entries,Low,MEA
+TKT-9E8136,CO,VA01,NullReferenceException in background job,Vendor invoice posting,No fix attempted yet,High,MEA
+TKT-5D7E6F,PP,KSB1,NullReferenceException in background job,Cost center reporting,Reassigned authorizations,Low,MEA
+TKT-98CB6E,CO,PA30,Authorization check failed,Production order release,Reassigned authorizations,High,EU
+TKT-A2E761,PP,KSB1,Short dump in custom report ZFI123,Production order release,No fix attempted yet,High,US
+TKT-E27574,FI,KSB1,NullReferenceException in background job,Cost center reporting,Validated config entries,Low,US
+TKT-EFE073,HR,FB60,RFC destination not maintained,Employee master update,Checked with Basis team,Critical,US
+TKT-073239,PP,FB60,NullReferenceException in background job,Cost center reporting,Re-ran job in foreground,High,APAC
+TKT-C7FDF4,MM,VA01,Short dump in custom report ZFI123,Production order release,Restarted workflow,High,APAC
+TKT-EB50BD,CO,ME21N,RFC destination not maintained,Cost center reporting,Checked with Basis team,Critical,EU
+TKT-6AC1B3,CO,PA30,NullReferenceException in background job,Purchase order creation,Checked with Basis team,Critical,EU
+TKT-5AE4EF,FI,KSB1,Short dump in custom report ZFI123,Employee master update,Checked with Basis team,Critical,MEA
+TKT-2771EF,PP,KSB1,Short dump in custom report ZFI123,Production order release,Reassigned authorizations,Medium,APAC
+TKT-B6E535,SD,FB60,RFC destination not maintained,Production order release,Restarted workflow,High,APAC
+TKT-3693E6,SD,PA30,Authorization check failed,Cost center reporting,Checked with Basis team,Critical,US
+TKT-6C040E,SD,KSB1,Missing configuration for document type,Production order release,Reassigned authorizations,Low,APAC
+TKT-AE8439,SD,KSB1,Invalid table lock entry,Production order release,No fix attempted yet,Critical,EU
+TKT-298AD7,MM,KSB1,Missing configuration for document type,Employee master update,Restarted workflow,Critical,EU
+TKT-D43274,CO,ME21N,RFC destination not maintained,Sales order booking,Restarted workflow,Critical,APAC
+TKT-07B4A3,FI,KSB1,Short dump in custom report ZFI123,Vendor invoice posting,Restarted workflow,Medium,MEA
+TKT-E9025E,PP,ME21N,Invalid table lock entry,Vendor invoice posting,Validated config entries,High,APAC
+TKT-E73642,HR,ME21N,Missing configuration for document type,Vendor invoice posting,Restarted workflow,Critical,APAC
+TKT-214D36,FI,VA01,RFC destination not maintained,Purchase order creation,Restarted workflow,Medium,US
+TKT-8504EF,FI,ME21N,NullReferenceException in background job,Vendor invoice posting,Reassigned authorizations,Critical,APAC
+TKT-EE9170,CO,CO01,Authorization check failed,Purchase order creation,Checked with Basis team,Medium,US
+TKT-AEA090,MM,CO01,Missing configuration for document type,Cost center reporting,No fix attempted yet,Medium,MEA
