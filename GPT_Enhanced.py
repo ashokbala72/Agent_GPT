@@ -10,6 +10,7 @@ from datetime import datetime
 from openai import OpenAI
 from streamlit_autorefresh import st_autorefresh
 from dotenv import load_dotenv
+import re
 
 # === CONFIG ===
 st.set_page_config(layout="wide")
@@ -71,15 +72,14 @@ def get_gpt_root_cause(ticket_id, issue_text):
     try:
         context = ticket_context_df.loc[ticket_id] if ticket_id in ticket_context_df.index else None
         context_prompt = ""
-
         if context is not None:
             context_prompt = f"""
 Additional Ticket Context:
-- SAP Module / Transaction Code: {context.get('Transaction Code', 'N/A')}
-- Error Message / Log: {context.get('Error Message', 'N/A')}
-- Affected Business Process: {context.get('Business Process', 'N/A')}
-- Previous Fix Attempts: {context.get('Previous Fixes', 'None')}
-- Metadata: {context.get('Metadata', 'N/A')}
+    - SAP Module / Transaction Code: {context.get('Transaction Code', 'N/A')}
+    - Error Message / Log: {context.get('Error Message', 'N/A')}
+    - Affected Business Process: {context.get('Business Process', 'N/A')}
+    - Previous Fix Attempts: {context.get('Previous Fixes', 'None')}
+    - Metadata: {context.get('Metadata', 'N/A')}
 """
 
         prompt = f"""You are an SAP support incident analyst. Perform a 5 Whys analysis based on the issue and context below.
@@ -87,8 +87,11 @@ Additional Ticket Context:
 Issue Summary: {issue_text}
 {context_prompt}
 
-Respond with 5 Whys in bullet points followed by a clear final root cause."""
-        
+Respond with:
+- A numbered list of the 5 Whys
+- Then clearly state: 'Final Root Cause: <one-line summary>'
+"""
+
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
@@ -100,33 +103,27 @@ Respond with 5 Whys in bullet points followed by a clear final root cause."""
         )
         reply = response.choices[0].message.content.strip()
 
-        import re
-        lines = reply.splitlines()
         whys = []
-        for line in lines:
-            line = line.strip()
-            if re.match(r"^[-*]\s*", line) and "why" in line.lower():
-                whys.append(line.lstrip("-* ").strip())
-            elif re.match(r"(?i)^why\s*\d*[:\.-]?", line):
-                whys.append(re.sub(r"(?i)^why\s*\d*[:\.-]?\s*", "", line).strip())
+        root_cause = "Root cause unknown"
 
-        whys = whys[:5]
+        for line in reply.splitlines():
+            line = line.strip()
+            if re.match(r"^\d+\.\s", line):
+                whys.append(re.sub(r"^\d+\.\s*", "", line))
+            elif "Final Root Cause:" in line:
+                root_cause = line.split("Final Root Cause:")[-1].strip()
+
         while len(whys) < 5:
             whys.append("(Placeholder to reach 5 Whys)")
 
-        root_cause = whys[-1] if whys and "Placeholder" not in whys[-1] else "Root cause unknown"
         return whys, root_cause
     except Exception as e:
         return [f"Error: {str(e)}"], "Root cause unknown"
 
-
-
-# === ADVANCE TICKETS ===
 def change_agent(ticket, new_agent):
     if ticket["assigned_agent"] != new_agent:
         ticket.setdefault("agent_history", []).append(ticket["assigned_agent"])
         ticket["assigned_agent"] = new_agent
-
 def advance_tickets():
     for ticket in st.session_state.ticket_queue:
         if ticket["status"] == "Closed":
