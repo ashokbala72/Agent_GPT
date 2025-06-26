@@ -258,9 +258,17 @@ def render_tabs():
         df_in_progress = df[df["status"] != "Closed"]
 
         def avg_resolution_time(df):
-            durations = [(row["end_time"] - row["start_time"]).total_seconds()/60 for _, row in df.iterrows() if row["end_time"]]
-            return round(sum(durations)/len(durations), 2) if durations else 0
-
+            durations = []
+            for _, row in df.iterrows():
+                start = row.get("start_time")
+                end = row.get("end_time")
+                if isinstance(start, str):
+                    start = pd.to_datetime(start)
+                if isinstance(end, str):
+                    end = pd.to_datetime(end)
+                if pd.notnull(start) and pd.notnull(end):
+                    durations.append((end - start).total_seconds() / 60)
+            return round(sum(durations) / len(durations), 2) if durations else 0
         kpi_data = [
             ["Total Tickets Processed", len(df), "count", "tickets"],
             ["Average Resolution Time", avg_resolution_time(df_closed), "average time", "minutes"],
